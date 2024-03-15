@@ -9,7 +9,7 @@ sql_injection_pattern = r"((\%27)|(\'))((\%6F)|o|(\%4F))(\%72|r|(\%52))"
 param_pattern = r"(;|'|--|\/\*|xp_)"
 
 # Path to the log file (run from same directory you run the script or put in full parh of file)
-log_file = "iis_webserver.log"
+log_file = "webserver.log"
 
 # Check if the log file exists
 if not os.path.isfile(log_file):
